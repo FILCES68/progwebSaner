@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+}
+
+body{
+    height: 4000px;
+
+}
+header img {
+    align-items:center;  /* colocar logo à esquerda*/
+    margin: 30px;
+    height: 300px;
+    flex: auto; 
+    box-shadow: 0 0 1px;
+    border-radius: 9px;
+}
+
+header{
+   /* background-color: rgba(69, 134, 80, 0.644);*/
+    background-image: url('../img/AA147S5Xaaa.jpg');
+    background-size: cover;
+    flex: auto;
+}
+
+header h1{
+    text-align: center;
+    color: rgba(230, 223, 223, 0.904);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+
+header h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.897);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+header a{ 
+    text-decoration: none;
+}
+
+.sanerg{
+
+    width: 200px;
+    height: 100px;
+}
+
+header .redesocial{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+}
+
+body{
+    height: 4000px;
+
+}
+header img {
+    align-items:center;  /* colocar logo à esquerda*/
+    margin: 50px;
+    height: 250px;
+    flex: auto; 
+    box-shadow: 0 0 1px;
+    border-radius: 9px;
+}
+
+header{
+   /* background-color: rgba(69, 134, 80, 0.644);*/
+    background-image: url('../img/AA147S5Xaaa.jpg');
+    background-size: cover;
+    flex: auto;
+}
+
+header h1{
+    text-align: center;
+    color: rgba(230, 223, 223, 0.904);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+
+header h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.897);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+header a{ 
+    text-decoration: none;
+}
+
+.nav-link {
+    /*color: RGB(7,24,60);*/
+    color: #0C262F;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color:#2832E0;
+}
+.imagem-carrossel{
+    width: 75% ;
+    margin: auto;
+}
+
+.sanerg{
+
+    width: 200px;
+    height: 100px;
+}
+
+header .redesocial{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.nav-link{
+    margin-left: 20px;
+    background-color: #286CE0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(44, 43, 43, 0.74);
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul > li{
+    text-decoration: none;
+    
+}
