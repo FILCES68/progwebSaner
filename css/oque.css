@@ -6,10 +6,10 @@
     max-width:100%;
 }
 
-body{
-    height: 1000px;
+/* body {
+    height: 10000px;
+} */
 
-}
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 30px;

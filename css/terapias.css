@@ -6,10 +6,6 @@
     max-width:100%;
 }
 
-body{
-    height: 4000px;
-
-}
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 30px;
@@ -59,16 +55,6 @@ header .redesocial{
     border-radius: 10px;
     margin-left: 5px;
 }
-*{
-    margin: 0;
-    padding: 0;
-    max-width:100%;
-}
-
-body{
-    height: 4000px;
-
-}
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 50px;
@@ -114,16 +100,6 @@ header a{
     color: white;
     background-color:#2832E0;
 }
-.imagem-carrossel{
-    width: 75% ;
-    margin: auto;
-}
-
-.sanerg{
-
-    width: 200px;
-    height: 100px;
-}
 
 header .redesocial{
     margin-top: 50px;
@@ -142,8 +118,102 @@ header .redesocial{
     text-align: center;
     font-weight: bold;
 }
+.normal{
+    background-color:#286CE0;
+    color: white;
+    text-align: justify ;
+    font-size: 1.1em;
+    width: 900px;
+}
 
-ul > li{
-    text-decoration: none;
+.normal img{
+    display:inline-flex;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+#frase {
+    background-color: #286CE0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+#imag1{
+    display: inline-block;
+    height: 300px;
+    width: 750px;
+    padding-left: 25px;
     
+}
+
+
+li{
+    list-style-type: none;
+
+} 
+.row{
+    width:100%;
+    margin: 0;
+}
+
+.mapa_localizacao{
+    width: 600px;
+    height: 400px;
+    background-color: #286be09d;
+    padding-left: 50px;
+}
+
+.col > h5{
+    text-align: auto;
+    color: white;
+}
+
+.col h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.col ul{
+    align-items: center;
+}
+
+.col label{
+    color: white;
+    
+}
+
+.form-text{
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bold;
+}
+.col{
+    padding: 20px;
+    display: inline-block;
+    background-color: #286CE0;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    height: 75px;
+    background-color: RGB(7,24,60);
+    padding: 25px;
+    border: 0px;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#nome,
+#mail{
+    border-radius: 7px;
+
 }

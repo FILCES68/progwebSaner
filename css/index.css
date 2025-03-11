@@ -6,10 +6,10 @@
     max-width:100%;
 }
 
-body{
-    height: 4000px;
+/* body {
+    height: 10000px;
 
-}
+} */
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 50px;
@@ -56,7 +56,7 @@ header a{
     background-color:#2832E0;
 }
 .imagem-carrossel{
-    width: 75% ;
+    width: 65%;
     margin: auto;
 }
 
@@ -83,15 +83,10 @@ header .redesocial{
     text-align: center;
     font-weight: bold;
 }
-#sobremim img{
-    width:auto
-    height: 250px;
-}
-
 
 .card img{
     height: 300px;
-    width: 550px;
+    width: 300px;
     border-radius: 10px;
 
 }
@@ -138,6 +133,7 @@ li{
 
 .row{
     width:100%;
+    margin: 0;
 }
 
 .mapa_localizacao{
