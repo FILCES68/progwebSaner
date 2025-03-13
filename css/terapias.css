@@ -118,6 +118,11 @@ header .redesocial{
     text-align: center;
     font-weight: bold;
 }
+
+h1{
+    text-align: center ;
+}
+
 .normal{
     background-color:#286CE0;
     color: white;
@@ -132,6 +137,12 @@ header .redesocial{
 
 }
 
+
+img {
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 100px;
+    margin-right: 100px;
+}
 #frase {
     background-color: #286CE0;
     padding: 10px;
@@ -139,13 +150,25 @@ header .redesocial{
     color: white;
 }
 
+.video1{
+    align-items: auto;
+}
 
 #imag1{
     display: inline-block;
     height: 300px;
     width: 750px;
-    padding-left: 25px;
-    
+    padding-left: 50px;
+}
+
+
+
+article{
+    width: 850px;
+    height: auto;
+    background-color:#286CE0;
+    align-content: center;
+    color: white;
 }
 
 
