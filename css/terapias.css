@@ -119,6 +119,22 @@ header .redesocial{
     font-weight: bold;
 }
 
+.dropdown-menu{
+    background-color: #286CE0;
+    color:white;
+}
+
+.dropdown-item{
+    color: white;
+    text: bold;
+}
+
+.imagem{
+    margin-top: 20px;
+    margin-left: 20px 20px ;
+    border-radius: 5px;
+}
+
 h1{
     text-align: center ;
 }

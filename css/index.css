@@ -6,14 +6,11 @@
     max-width:100%;
 }
 
-/* body {
-    height: 10000px;
 
-} */
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 50px;
-    height: 250px;
+    height: 150px;
     flex: auto; 
     box-shadow: 0 0 1px;
     border-radius: 9px;
@@ -46,15 +43,24 @@ header a{
     text-decoration: none;
 }
 
-.nav-link {
-    /*color: RGB(7,24,60);*/
-    color: #0C262F;
-}
 
-.nav-link:hover {
+.nav-link:hover{
     color: white;
     background-color:#2832E0;
 }
+
+.nav-link{
+    margin-left: 20px;
+    background-color: #286CE0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(44, 43, 43, 0.74);
+    width: 150px;
+    text-align: center;
+    font-weight: bold; 
+    color: #0C262F;
+}
+
+
 .imagem-carrossel{
     width: 65%;
     margin: auto;
@@ -66,22 +72,19 @@ header a{
     height: 100px;
 }
 
-header .redesocial{
+.btn-primary:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    color: #286CE0;
+    color: white;
+}
+
+footer .redesocial{
     margin-top: 50px;
     width: 40px;
     height: 40px;
     border-radius: 10px;
     margin-left: 5px;
-}
-
-.nav-link{
-    margin-left: 20px;
-    background-color: #286CE0;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(44, 43, 43, 0.74);
-    width: 150px;
-    text-align: center;
-    font-weight: bold;
 }
 
 .card img{
@@ -100,7 +103,6 @@ header .redesocial{
     margin: 100px;
 }
 
-
 .card-text {
     text-align:left;
     
@@ -114,22 +116,13 @@ header .redesocial{
     color: #0827d8;
     text-decoration: underline;
     font-weight: bold;
+    transform: scale(1.1) translateX(3%);
  }
 
 li{
     list-style-type: none;
 }
 
-/*.foot{
-    display: inline-block;
-    background-color: #286CE0;
-    width: auto;
-    border-radius: 10px 10px 0px 0px;
-    padding: 5px;
-    align-items: center;
-    height: 750px;
-
-}*/
 
 iframe{
     align-items: center;
@@ -165,6 +158,7 @@ iframe{
 
 .col label{
     color: white;
+   
     
 }
 
@@ -181,9 +175,10 @@ iframe{
     align-items: center;
 }
 
+
 footer {
     text-align: center;
-    height: 75px;
+    height: 150px;
     background-color: RGB(7,24,60);
     padding: 25px;
     border: 0px;
