@@ -6,6 +6,7 @@
     max-width:100%;
 }
 
+
 header img {
     align-items:center;  /* colocar logo à esquerda*/
     margin: 50px;
@@ -42,31 +43,11 @@ header a{
     text-decoration: none;
 }
 
-.sanerg{
 
-    width: 200px;
-    height: 100px;
-}
-
-header .redesocial{
-    margin-top: 50px;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    margin-left: 5px;
-}
-
-.nav-link {
-    /*color: RGB(7,24,60);*/
- 
-}
-
-.nav-link:hover {
+.nav-link:hover{
     color: white;
     background-color:#2832E0;
-    transform: scale(1.1) translateX(3%);
 }
-
 
 .nav-link{
     margin-left: 20px;
@@ -75,54 +56,12 @@ header .redesocial{
     box-shadow: 2px 2px 2px rgba(44, 43, 43, 0.74);
     width: 150px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; 
     color: #0C262F;
 }
 
-#img01{
-    background-color:#286CE0;
-    color: white;
-    text-align: justify;
-    font-size: 1.1em;
-    display: inline-block;
-    width: 750px;
-    height: 300px;
-    text-align: center;
-    padding-left: 50px;
-}
 
 
-
-
-li{
-    list-style-type: none;
-
-}   
-
-h1, h3, h4, h5{
-    text-align: center; 
-}
-
-p{
-    margin-left: 50px;
-}
-
-.normal{
-    display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-.row{
-    width:100%;
-    margin: 0;
-}
 
 .mapa_localizacao{
     width: 600px;
@@ -148,6 +87,7 @@ p{
 
 .col label{
     color: white;
+   
     
 }
 
@@ -164,7 +104,6 @@ p{
     align-items: center;
 }
 
-
 footer .redesocial{
     margin-top: 50px;
     width: 40px;
@@ -172,6 +111,7 @@ footer .redesocial{
     border-radius: 10px;
     margin-left: 5px;
 }
+
 
 footer {
     text-align: center;
